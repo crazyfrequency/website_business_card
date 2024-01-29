@@ -1,0 +1,1 @@
+<div class="mx-3 md:mx-10 lg:mx-12 xl:mx-24 h-[2px] bg-[#A7C9E9]/80 blur-sm/2" />
