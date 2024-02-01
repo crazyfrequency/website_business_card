@@ -1,4 +1,4 @@
-import { fontFamily } from "tailwindcss/defaultTheme";
+import { fontFamily, screens } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -56,9 +56,16 @@ const config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-        montserrat: ["'Montserrat'", "sans-serif"],
-        michroma: ["'Michroma'", "sans-serif"]
+				montserrat: ["'Montserrat'", "sans-serif"],
+				michroma: ["'Michroma'", "sans-serif"]
 			}
+		},
+		screens: {
+			'2sm': '434px',
+			'sm1': '658px',
+			'md1': '850px',
+			'2xl1': '1674px',
+			...screens,
 		}
 	},
 };
